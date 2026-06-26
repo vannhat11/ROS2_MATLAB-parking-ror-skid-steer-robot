@@ -1,0 +1,320 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: vannhat vannhat, HP Inc., LIC=MPPLD-8LHW2-MM09I-T3CZK-39TM5-7CGT3
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+D:\download\305\final.uvprojx
+Project File Date:  05/30/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_md.s...
+RTE/Device/STM32F103C8/system_stm32f10x.c(166): warning: no previous extern declaration for non-static variable 'AHBPrescTable' [-Wmissing-variable-declarations]
+__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+            ^
+RTE/Device/STM32F103C8/system_stm32f10x.c(166): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+__I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+    ^
+1 warning generated.
+compiling system_stm32f10x.c...
+main.c(10): warning: no previous extern declaration for non-static variable 'Kp' [-Wmissing-variable-declarations]
+float Kp = 2.2f, Ki = 21.03f, Kd = 0.0018f;
+      ^
+main.c(10): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float Kp = 2.2f, Ki = 21.03f, Kd = 0.0018f;
+^
+main.c(10): warning: no previous extern declaration for non-static variable 'Ki' [-Wmissing-variable-declarations]
+float Kp = 2.2f, Ki = 21.03f, Kd = 0.0018f;
+                 ^
+main.c(10): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float Kp = 2.2f, Ki = 21.03f, Kd = 0.0018f;
+^
+main.c(10): warning: no previous extern declaration for non-static variable 'Kd' [-Wmissing-variable-declarations]
+float Kp = 2.2f, Ki = 21.03f, Kd = 0.0018f;
+                              ^
+main.c(10): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float Kp = 2.2f, Ki = 21.03f, Kd = 0.0018f;
+^
+main.c(11): warning: no previous extern declaration for non-static variable 'setL' [-Wmissing-variable-declarations]
+float setL = 0.0f, setR = 0.0f;
+      ^
+main.c(11): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float setL = 0.0f, setR = 0.0f;
+^
+main.c(11): warning: no previous extern declaration for non-static variable 'setR' [-Wmissing-variable-declarations]
+float setL = 0.0f, setR = 0.0f;
+                   ^
+main.c(11): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float setL = 0.0f, setR = 0.0f;
+^
+main.c(12): warning: no previous extern declaration for non-static variable 'tocdoL' [-Wmissing-variable-declarations]
+float tocdoL = 0, tocdoR = 0;
+      ^
+main.c(12): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float tocdoL = 0, tocdoR = 0;
+^
+main.c(12): warning: no previous extern declaration for non-static variable 'tocdoR' [-Wmissing-variable-declarations]
+float tocdoL = 0, tocdoR = 0;
+                  ^
+main.c(12): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float tocdoL = 0, tocdoR = 0;
+^
+main.c(13): warning: no previous extern declaration for non-static variable 'eL' [-Wmissing-variable-declarations]
+float eL = 0, e1L = 0, e2L = 0;
+      ^
+main.c(13): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float eL = 0, e1L = 0, e2L = 0;
+^
+main.c(13): warning: no previous extern declaration for non-static variable 'e1L' [-Wmissing-variable-declarations]
+float eL = 0, e1L = 0, e2L = 0;
+              ^
+main.c(13): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float eL = 0, e1L = 0, e2L = 0;
+^
+main.c(13): warning: no previous extern declaration for non-static variable 'e2L' [-Wmissing-variable-declarations]
+float eL = 0, e1L = 0, e2L = 0;
+                       ^
+main.c(13): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float eL = 0, e1L = 0, e2L = 0;
+^
+main.c(14): warning: no previous extern declaration for non-static variable 'eR' [-Wmissing-variable-declarations]
+float eR = 0, e1R = 0, e2R = 0;
+      ^
+main.c(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float eR = 0, e1R = 0, e2R = 0;
+^
+main.c(14): warning: no previous extern declaration for non-static variable 'e1R' [-Wmissing-variable-declarations]
+float eR = 0, e1R = 0, e2R = 0;
+              ^
+main.c(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float eR = 0, e1R = 0, e2R = 0;
+^
+main.c(14): warning: no previous extern declaration for non-static variable 'e2R' [-Wmissing-variable-declarations]
+float eR = 0, e1R = 0, e2R = 0;
+                       ^
+main.c(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float eR = 0, e1R = 0, e2R = 0;
+^
+main.c(16): warning: no previous extern declaration for non-static variable 'outL' [-Wmissing-variable-declarations]
+float outL = 0, outR = 0, lastOutL = 0, lastOutR = 0;
+      ^
+main.c(16): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float outL = 0, outR = 0, lastOutL = 0, lastOutR = 0;
+^
+main.c(16): warning: no previous extern declaration for non-static variable 'outR' [-Wmissing-variable-declarations]
+float outL = 0, outR = 0, lastOutL = 0, lastOutR = 0;
+                ^
+main.c(16): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float outL = 0, outR = 0, lastOutL = 0, lastOutR = 0;
+^
+main.c(16): warning: no previous extern declaration for non-static variable 'lastOutL' [-Wmissing-variable-declarations]
+float outL = 0, outR = 0, lastOutL = 0, lastOutR = 0;
+                          ^
+main.c(16): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float outL = 0, outR = 0, lastOutL = 0, lastOutR = 0;
+^
+main.c(16): warning: no previous extern declaration for non-static variable 'lastOutR' [-Wmissing-variable-declarations]
+float outL = 0, outR = 0, lastOutL = 0, lastOutR = 0;
+                                        ^
+main.c(16): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float outL = 0, outR = 0, lastOutL = 0, lastOutR = 0;
+^
+main.c(24): warning: no previous extern declaration for non-static variable 'rx_index' [-Wmissing-variable-declarations]
+uint8_t rx_index = 0;
+        ^
+main.c(24): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint8_t rx_index = 0;
+^
+main.c(25): warning: no previous extern declaration for non-static variable 'data_ready_flag' [-Wmissing-variable-declarations]
+volatile uint8_t data_ready_flag = 0;
+                 ^
+main.c(25): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile uint8_t data_ready_flag = 0;
+         ^
+main.c(28): warning: no previous extern declaration for non-static variable 'feedback_divider' [-Wmissing-variable-declarations]
+uint8_t feedback_divider = 0;
+        ^
+main.c(28): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint8_t feedback_divider = 0;
+^
+main.c(30): warning: no previous prototype for function 'Clock72MHz' [-Wmissing-prototypes]
+void Clock72MHz(void)
+     ^
+main.c(30): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void Clock72MHz(void)
+^
+static 
+main.c(45): warning: no previous prototype for function 'USART2_Init' [-Wmissing-prototypes]
+void USART2_Init(void)
+     ^
+main.c(45): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void USART2_Init(void)
+^
+static 
+main.c(59): warning: no previous prototype for function 'USART2_IRQHandler' [-Wmissing-prototypes]
+void USART2_IRQHandler(void)
+     ^
+main.c(59): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void USART2_IRQHandler(void)
+^
+static 
+main.c(72): warning: implicit conversion increases floating-point precision: 'float' to 'double' [-Wdouble-promotion]
+    sprintf(tx_buf, "%.2f,%.2f\n", tocdoL, tocdoR);
+    ~~~~~~~                        ^~~~~~
+main.c(72): warning: implicit conversion increases floating-point precision: 'float' to 'double' [-Wdouble-promotion]
+    sprintf(tx_buf, "%.2f,%.2f\n", tocdoL, tocdoR);
+    ~~~~~~~                                ^~~~~~
+main.c(69): warning: no previous prototype for function 'Send_Feedback_To_Pi' [-Wmissing-prototypes]
+void Send_Feedback_To_Pi(void)
+     ^
+main.c(69): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void Send_Feedback_To_Pi(void)
+^
+static 
+main.c(85): warning: implicit conversion loses floating-point precision: 'double' to 'float' [-Wimplicit-float-conversion]
+        if(token != NULL) { setL = atof(token); token = strtok(NULL, ","); if(token != NULL) setR = atof(token); }
+                                 ~ ^~~~~~~~~~~
+main.c(85): warning: implicit conversion loses floating-point precision: 'double' to 'float' [-Wimplicit-float-conversion]
+        if(token != NULL) { setL = atof(token); token = strtok(NULL, ","); if(token != NULL) setR = atof(token); }
+                                                                                                  ~ ^~~~~~~~~~~
+main.c(80): warning: no previous prototype for function 'Parse_Pi_Commands' [-Wmissing-prototypes]
+void Parse_Pi_Commands(void)
+     ^
+main.c(80): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void Parse_Pi_Commands(void)
+^
+static 
+main.c(90): warning: no previous prototype for function 'Motor_GPIO_Init' [-Wmissing-prototypes]
+void Motor_GPIO_Init(void)
+     ^
+main.c(90): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void Motor_GPIO_Init(void)
+^
+static 
+main.c(100): warning: no previous prototype for function 'PWM_Init' [-Wmissing-prototypes]
+void PWM_Init(void)
+     ^
+main.c(100): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void PWM_Init(void)
+^
+static 
+main.c(123): warning: no previous prototype for function 'Encoder_Hardware_Init' [-Wmissing-prototypes]
+void Encoder_Hardware_Init(void)
+     ^
+main.c(123): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void Encoder_Hardware_Init(void)
+^
+static 
+main.c(141): warning: no previous prototype for function 'Drive_L298N_Left' [-Wmissing-prototypes]
+void Drive_L298N_Left(float pwm)
+     ^
+main.c(141): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void Drive_L298N_Left(float pwm)
+^
+static 
+main.c(149): warning: no previous prototype for function 'Drive_L298N_Right' [-Wmissing-prototypes]
+void Drive_L298N_Right(float pwm)
+     ^
+main.c(149): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void Drive_L298N_Right(float pwm)
+^
+static 
+main.c(157): warning: no previous prototype for function 'PID_Control' [-Wmissing-prototypes]
+void PID_Control(void)
+     ^
+main.c(157): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void PID_Control(void)
+^
+static 
+main.c(177): warning: no previous prototype for function 'SysTick_Handler' [-Wmissing-prototypes]
+void SysTick_Handler(void) 
+     ^
+main.c(177): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void SysTick_Handler(void) 
+^
+static 
+main.c(205): warning: no newline at end of file [-Wnewline-eof]
+}
+ ^
+main.c(15): warning: no previous extern declaration for non-static variable 'alpha' [-Wmissing-variable-declarations]
+float alpha, beta, gamma;
+      ^
+main.c(15): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float alpha, beta, gamma;
+^
+main.c(15): warning: no previous extern declaration for non-static variable 'beta' [-Wmissing-variable-declarations]
+float alpha, beta, gamma;
+             ^
+main.c(15): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float alpha, beta, gamma;
+^
+main.c(15): warning: no previous extern declaration for non-static variable 'gamma' [-Wmissing-variable-declarations]
+float alpha, beta, gamma;
+                   ^
+main.c(15): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+float alpha, beta, gamma;
+^
+main.c(23): warning: no previous extern declaration for non-static variable 'rx_buf' [-Wmissing-variable-declarations]
+char rx_buf[RX_BUF_SIZE];
+     ^
+main.c(23): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+char rx_buf[RX_BUF_SIZE];
+^
+41 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=13308 RO-data=736 RW-data=20 ZI-data=1748  
+".\Objects\final.axf" - 0 Error(s), 42 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\_Target_1
+  C:\Users\vannh\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\vannh\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
